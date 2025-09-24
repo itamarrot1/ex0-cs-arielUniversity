@@ -33,7 +33,5 @@ Class 10: https://docs.google.com/presentation/d/1GVmEJaWNd56YsrXiZhWyUcuLnMlEVp
 Class 11: https://docs.google.com/presentation/d/1N20U_zfZhr4uRqgwVZv_DogYGNmek-1E/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true
 
 Assignments:
+TBD
 
-Ex0: https://docs.google.com/document/d/1UQyZrfh4Rvkw1d0hNMeYJbc-vEr9FQAH/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true 
-#Ex1: https://docs.google.com/document/d/1AJ9wtnL1qdEs4DAKqBlO1bXCM6r6GJ_J/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true 
-#Ex2: https://docs.google.com/document/d/1-18T-dj00apE4k1qmpXGOaqttxLn-Kwi/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true
