@@ -7,7 +7,7 @@ General Code standards in Java (based on Google's Style Guide): https://google.g
 Moodle link (Hebrew, requires authentication): TBD
 IDE: https://www.jetbrains.com/idea/
 Java version: 21 (LTS): https://www.oracle.com/il-en/java/technologies/downloads/#java21
-Github (self ref): https://github.com/benmoshe/Intro2CS_2026A
+Github (self ref): https://github.com/benmoshe/Intro2CS_ArielU_2026A
 Classes:
 
 Class 1: Introduction: https://docs.google.com/presentation/d/1c_wj0ZnXtdV6IKbS9JYoHE4qRV5rj3gp/
