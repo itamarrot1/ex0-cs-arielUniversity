@@ -1,5 +1,5 @@
 # Intro2CS_ArielU_2026A
-This is an educational repository for teaching Introduction to Computer Science in Java (Ariel University, 2025 - fall semester - A). This repository contains the documents and code examples for the CS-101 course. This course requires no background in programming. The course covers basic concepts of programming, algorithms, and object-oriented programming using Java. At the end of the course, students should gain good programming skills and theoretical understanding, in particular sorting, functions, recursion, text files, classes, and interfaces.
+This is an educational repository for teaching Introduction to Computer Science in Java (Ariel University, 2026 - fall semester - A). This repository contains the documents and code examples for the CS-101 course. This course requires no background in programming. The course covers basic concepts of programming, algorithms, and object-oriented programming using Java. At the end of the course, students should gain good programming skills and theoretical understanding, in particular sorting, functions, recursion, text files, classes, and interfaces.
 
 Links:
 
@@ -10,7 +10,7 @@ Java version: 21 (LTS): https://www.oracle.com/il-en/java/technologies/downloads
 Github (self ref): https://github.com/benmoshe/Intro2CS_ArielU_2026A
 Classes:
 
-Class 1: Introduction: https://docs.google.com/presentation/d/1c_wj0ZnXtdV6IKbS9JYoHE4qRV5rj3gp/
+Class 1: Introduction: https://docs.google.com/presentation/d/1HCnjbvDFhup6xFeKgNt-hShfN2C_TbqY/
 
 Class 2: Foundation for programming: https://docs.google.com/presentation/d/1cNENnPcj9hI5sr5sW8hpV4KGrLCVNPu-/
 
