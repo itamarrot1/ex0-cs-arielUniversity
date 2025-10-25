@@ -4,7 +4,7 @@ This is an educational repository for teaching Introduction to Computer Science 
 Links:
 
 General Code standards in Java (based on Google's Style Guide): https://google.github.io/styleguide/javaguide.html#s2.1-file-name
-Moodle link (Hebrew, requires authentication): TBD
+Moodle link (Hebrew, requires authentication):
 IDE: https://www.jetbrains.com/idea/
 Java version: 21 (LTS): https://www.oracle.com/il-en/java/technologies/downloads/#java21
 Github (self ref): https://github.com/benmoshe/Intro2CS_ArielU_2026A
