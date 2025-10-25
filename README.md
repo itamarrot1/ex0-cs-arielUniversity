@@ -6,7 +6,7 @@ Links:
 General Code standards in Java (based on Google's Style Guide): https://google.github.io/styleguide/javaguide.html#s2.1-file-name
 Moodle link (Hebrew, requires authentication):
 IDE: https://www.jetbrains.com/idea/
-Java version: 21 (LTS): https://www.oracle.com/il-en/java/technologies/downloads/#java21
+Java version: 25, or 21 (LTS): https://www.oracle.com/il-en/java/technologies/downloads/#java25
 Github (self ref): https://github.com/benmoshe/Intro2CS_ArielU_2026A
 Classes:
 
@@ -33,5 +33,5 @@ Class 10: https://docs.google.com/presentation/d/1GVmEJaWNd56YsrXiZhWyUcuLnMlEVp
 Class 11: https://docs.google.com/presentation/d/1N20U_zfZhr4uRqgwVZv_DogYGNmek-1E/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true
 
 Assignments:
-TBD
+Ex0: https://docs.google.com/document/d/1UtngN203ttQKf5ackCnXs4UnbAROZWHr/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true
 
