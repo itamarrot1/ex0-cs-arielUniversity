@@ -1,6 +1,5 @@
 package classes.week1;
 
-
 /**
  * Output:
  * x+y = 19
