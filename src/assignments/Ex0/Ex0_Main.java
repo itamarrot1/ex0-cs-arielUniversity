@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * This class is a simple main class for running Ex0 of I2CS (ArielU 2026).
- * Note: this is not a JUnit test class - in the the next assigments such a class will be replaced with a proper JUnit (Testing) class.
+ * Note: this is not a JUnit test class - make sure to test your code with the Ex0Test (JUnit) class.
  *
  */
 public class Ex0_Main {
