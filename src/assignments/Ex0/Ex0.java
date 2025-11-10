@@ -36,7 +36,10 @@ public class Ex0 {
      *
      */
     public static boolean isPrime(long n) {
-        if (n % 2 == 0 && n != 2) { // check if n is divided by 2 and not 2
+        if (n<2){
+            return false;
+        }
+        if (n % 2 == 0 && n != 2 ) { // check if n is divided by 2 and not 2
             return false; // if yes it means he is not prime
         } else if (n == 2) { // if n = 2 return true
 //            System.out.print(n);
@@ -137,34 +140,40 @@ public class Ex0 {
      */
     public static long getClosestPrimePair(long start, long n) {
         long ans = -1;
-        boolean flag = false;
 
         if (n % 2 == 0 && n > 1) {
-            long i = start;
-            while (!flag) {
-                long temp = getPrimePair(i, n);
-                long low = temp + 1;
-                long high = temp + n;
-                boolean foundPrime = false;
-                while (low < high) {
-                    if (isPrime(low)) {
-                        i = low;
-                        foundPrime = true;
+            ans = start;
+            long temp = getPrimePair(ans, n); // first pair
+            while (true) {
+                long lower = temp + 1;
+                long higher = temp + n;
+                boolean foundPrimeBetween = false;
+
+                while (lower < higher) {
+                    if (isPrime(lower)) {
+                        ans = lower;
+                        temp = lower;
+                        foundPrimeBetween = true;
                         break;
-                    } else {
-                        low++;
                     }
-                }
-                if (!foundPrime) {
-                    flag = true;
-                    ans = temp;
-//                    System.out.println("the closet pair prime numbers with the differnce of " + n + " these: " + ans + " and " + high);
+                    lower++;
                 }
 
+                if (foundPrimeBetween) {
+                    // we found a prime in between check new pair
+                    temp = getPrimePair(temp, n);
+                } else {
+                    // no primes in between  we found the closest pair
+                    ans = temp;
+                    break;
+                }
             }
         }
+
         return ans;
     }
+
+
 
 
     /// ////////////////// ///
@@ -201,7 +210,7 @@ public class Ex0 {
 
     public static long getMthClosestPrimePair(int m, long n) {
         boolean flag = false;
-        if (m < 1 | n < 0 | n % 2 != 0) {
+        if (m < 0 | n < 0 | n % 2 != 0) {
             System.err.println("Invalid input: got m=" + m + ", n=" + n + "  |  m should be >=1 & n should be a positive even integer ");
             return -1;
         }
@@ -212,9 +221,9 @@ public class Ex0 {
             long currentPair = getClosestPrimePair(p5, n);
             if (currentPair > 0) { // if the sum of p5 and n is prime ;
                 long couple = currentPair + n;
-                System.out.println(currentPair + " and " + " " + couple + " are the " + counter + " closest prime pair with differnce of: " + n);
+//                System.out.println(currentPair + " and " + " " + couple + " are the " + counter + " closest prime pair with differnce of: " + n);
                 if (counter == m) {
-                    System.out.println("func test counter and m");
+//                    System.out.println("func test counter and m");
                     return currentPair;
                 } else {
                     counter++;
